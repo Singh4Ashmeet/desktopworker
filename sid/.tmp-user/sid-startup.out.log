@@ -1,0 +1,5 @@
+2026-03-28 22:57:33,120 INFO root - Sid v2.0.0-offline starting in offline mode
+2026-03-28 22:57:33,125 INFO root - System dependency hints: linux='apt install tesseract-ocr espeak-ng', macos='brew install tesseract espeak', windows='winget install UB-Mannheim.TesseractOCR && winget install eSpeak.eSpeak'
+2026-03-28 22:57:33,243 WARNING root - PyQt6/WebEngine not available; HUD running headless
+2026-03-28 22:57:35,152 INFO httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-03-28 22:57:38,845 INFO apscheduler.scheduler - Scheduler started

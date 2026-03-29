@@ -1,0 +1,69 @@
+2026-03-28 22:46:21,858 INFO root - Sid v2.0.0-offline starting in offline mode
+2026-03-28 22:46:21,861 INFO root - System dependency hints: linux='apt install tesseract-ocr espeak-ng', macos='brew install tesseract espeak', windows='winget install UB-Mannheim.TesseractOCR && winget install eSpeak.eSpeak'
+2026-03-28 22:46:21,937 WARNING root - PyQt6/WebEngine not available; HUD running headless
+2026-03-28 22:46:23,827 INFO httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-03-28 22:46:23,834 WARNING root - pystray/Pillow not available; tray disabled
+2026-03-28 22:46:24,115 WARNING root - openwakeword dependencies unavailable; wake detector idle
+2026-03-28 22:46:24,122 INFO root - State transition: OFF -> SLEEPING (startup)
+2026-03-28 22:46:26,572 INFO apscheduler.scheduler - Scheduler started
+2026-03-28 22:46:26,578 INFO root - Global hotkey listener unavailable; install 'keyboard' for ctrl+space
+2026-03-28 22:46:27,588 ERROR root - Screen capture loop error
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\dekstop work\sid\vision\capture.py", line 66, in _capture
+    import mss  # type: ignore
+    ^^^^^^^^^^
+ModuleNotFoundError: No module named 'mss'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\dekstop work\sid\vision\capture.py", line 27, in run
+    image_b64, phash = await asyncio.to_thread(self._capture)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Admin\OneDrive\Desktop\dekstop work\sid\vision\capture.py", line 68, in _capture
+    raise RuntimeError("mss is required for screen capture") from exc
+RuntimeError: mss is required for screen capture
+2026-03-28 22:46:28,717 ERROR root - Screen capture loop error
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\dekstop work\sid\vision\capture.py", line 66, in _capture
+    import mss  # type: ignore
+    ^^^^^^^^^^
+ModuleNotFoundError: No module named 'mss'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\dekstop work\sid\vision\capture.py", line 27, in run
+    image_b64, phash = await asyncio.to_thread(self._capture)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Admin\OneDrive\Desktop\dekstop work\sid\vision\capture.py", line 68, in _capture
+    raise RuntimeError("mss is required for screen capture") from exc
+RuntimeError: mss is required for screen capture
+2026-03-28 22:48:07,744 INFO root - Sid v2.0.0-offline starting in offline mode
+2026-03-28 22:48:07,748 INFO root - System dependency hints: linux='apt install tesseract-ocr espeak-ng', macos='brew install tesseract espeak', windows='winget install UB-Mannheim.TesseractOCR && winget install eSpeak.eSpeak'
+2026-03-28 22:48:07,793 WARNING root - PyQt6/WebEngine not available; HUD running headless
+2026-03-28 22:48:08,987 INFO httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-03-28 22:48:08,991 WARNING root - pystray/Pillow not available; tray disabled
+2026-03-28 22:48:09,133 WARNING root - openwakeword dependencies unavailable; wake detector idle
+2026-03-28 22:48:10,037 INFO apscheduler.scheduler - Scheduler started
+2026-03-28 22:48:10,039 INFO root - Global hotkey listener unavailable; install 'keyboard' for ctrl+space
+2026-03-28 22:48:11,046 WARNING root - Screen capture disabled: mss is required for screen capture
+2026-03-28 22:54:58,812 INFO root - Sid v2.0.0-offline starting in offline mode
+2026-03-28 22:54:58,818 INFO root - System dependency hints: linux='apt install tesseract-ocr espeak-ng', macos='brew install tesseract espeak', windows='winget install UB-Mannheim.TesseractOCR && winget install eSpeak.eSpeak'
+2026-03-28 22:54:58,902 WARNING root - PyQt6/WebEngine not available; HUD running headless
+2026-03-28 22:55:02,284 INFO httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-03-28 22:57:33,120 INFO root - Sid v2.0.0-offline starting in offline mode
+2026-03-28 22:57:33,125 INFO root - System dependency hints: linux='apt install tesseract-ocr espeak-ng', macos='brew install tesseract espeak', windows='winget install UB-Mannheim.TesseractOCR && winget install eSpeak.eSpeak'
+2026-03-28 22:57:33,243 WARNING root - PyQt6/WebEngine not available; HUD running headless
+2026-03-28 22:57:35,152 INFO httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-03-28 22:57:38,845 INFO apscheduler.scheduler - Scheduler started

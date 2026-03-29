@@ -1,0 +1,12 @@
+﻿[Unit]
+Description=Sid AI Desktop Assistant
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/sid
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
